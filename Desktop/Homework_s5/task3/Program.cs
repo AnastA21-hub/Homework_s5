@@ -28,7 +28,7 @@ void PrintMatrix(int[,] matrix)//метод для вывода двумерно
 
 int[,] matrix = FillMatrix(5, 7, 10, 100);
 PrintMatrix(matrix);
-int FindMinNumber(int[,] matrix)//поиск минимального элеменка, выводим индекс строки
+int FindMinNumber(int[,] matrix)//поиск минимального элемента, выводим индекс строки
 {
 	int min = matrix[0, 0];
 	int rows = 0;
